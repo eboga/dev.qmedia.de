@@ -2,63 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9bd2ab9-16fb-4ac0-8e81-be8c4503f401" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CNAME" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/1822direkt-1822-VISA-Gold.jpg" afterPath="$PROJECT_DIR$/base64/1822direkt-1822-VISA-Gold.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/ADAC-ADAC-mobilkarte-GOLD-(VISA).jpg" afterPath="$PROJECT_DIR$/base64/ADAC-ADAC-mobilkarte-GOLD-(VISA).jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/ADAC-ADAC-mobilkarte-Silber-(VISA).jpg" afterPath="$PROJECT_DIR$/base64/ADAC-ADAC-mobilkarte-Silber-(VISA).jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/ADAC-ADAC-mobilkarten-Doppel-GOLD.jpg" afterPath="$PROJECT_DIR$/base64/ADAC-ADAC-mobilkarten-Doppel-GOLD.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/ADAC-ADAC-mobilkarten-Doppel-Silber.jpg" afterPath="$PROJECT_DIR$/base64/ADAC-ADAC-mobilkarten-Doppel-Silber.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/American-Express-American-Express-Business-Gold-Card.jpg" afterPath="$PROJECT_DIR$/base64/American-Express-American-Express-Business-Gold-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/American-Express-American-Express-Card.jpg" afterPath="$PROJECT_DIR$/base64/American-Express-American-Express-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Audi-VISA-Card.jpg" afterPath="$PROJECT_DIR$/base64/Audi-VISA-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/BW-Bank-MercedesCard-Gold.jpg" afterPath="$PROJECT_DIR$/base64/BW-Bank-MercedesCard-Gold.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/BW-Bank-MercedesCard-Silber.jpg" afterPath="$PROJECT_DIR$/base64/BW-Bank-MercedesCard-Silber.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Barclaycard-Barclaycard for Students.img.jpg" afterPath="$PROJECT_DIR$/base64/Barclaycard-Barclaycard for Students.img.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Barclaycard-Barclaycard-Eurowings-Classic.jpg" afterPath="$PROJECT_DIR$/base64/Barclaycard-Barclaycard-Eurowings-Classic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Barclaycard-Barclaycard-Eurowings-Gold.jpg" afterPath="$PROJECT_DIR$/base64/Barclaycard-Barclaycard-Eurowings-Gold.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Barclaycard-Barclaycard-Platinum-Double.jpg" afterPath="$PROJECT_DIR$/base64/Barclaycard-Barclaycard-Platinum-Double.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Comdirect-Comdirect-VISA-Karte.jpg" afterPath="$PROJECT_DIR$/base64/Comdirect-Comdirect-VISA-Karte.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Commerzbank-Commerzbank-MasterCard-Classic.jpg" afterPath="$PROJECT_DIR$/base64/Commerzbank-Commerzbank-MasterCard-Classic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Commerzbank-Commerzbank-MasterCard-Gold.jpg" afterPath="$PROJECT_DIR$/base64/Commerzbank-Commerzbank-MasterCard-Gold.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Commerzbank-Commerzbank-PremiumKreditkarte.jpg" afterPath="$PROJECT_DIR$/base64/Commerzbank-Commerzbank-PremiumKreditkarte.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Consorsbank-Consorsbank-VISA-Classic.jpg" afterPath="$PROJECT_DIR$/base64/Consorsbank-Consorsbank-VISA-Classic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/DMAX-DMAX-MasterCard.jpg" afterPath="$PROJECT_DIR$/base64/DMAX-DMAX-MasterCard.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Deutsche-Bank-MasterCard-Travel.jpg" afterPath="$PROJECT_DIR$/base64/Deutsche-Bank-MasterCard-Travel.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Deutsche-Lufthansa-AG-Miles-&amp;-More-Credit-Card-Gold-(World-Business).jpg" afterPath="$PROJECT_DIR$/base64/Deutsche-Lufthansa-AG-Miles-&amp;-More-Credit-Card-Gold-(World-Business).jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Deutsche-Lufthansa-AG-Miles-&amp;-More-Credit-Card-White.jpg" afterPath="$PROJECT_DIR$/base64/Deutsche-Lufthansa-AG-Miles-&amp;-More-Credit-Card-White.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Global-Global-MasterCard-Premium.jpg" afterPath="$PROJECT_DIR$/base64/Global-Global-MasterCard-Premium.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Hanseatic Bank-Hanseatic Bank GenialCard.img.jpg" afterPath="$PROJECT_DIR$/base64/Hanseatic Bank-Hanseatic Bank GenialCard.img.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/ING-Diba-ING-Diba-Girokonto-VISA-Card.jpg" afterPath="$PROJECT_DIR$/base64/ING-Diba-ING-Diba-Girokonto-VISA-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/International-Card-Services-B.-V.-(ICS)-ICS-VISA-Foto-Card.jpg" afterPath="$PROJECT_DIR$/base64/International-Card-Services-B.-V.-(ICS)-ICS-VISA-Foto-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/International-Card-Services-B.-V.-(ICS)-ICS-VISA-World-Card-Gold.jpg" afterPath="$PROJECT_DIR$/base64/International-Card-Services-B.-V.-(ICS)-ICS-VISA-World-Card-Gold.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/N26-N26-Mastercard.jpg" afterPath="$PROJECT_DIR$/base64/N26-N26-Mastercard.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Norisbank-Norisbank MasterCard.img.jpg" afterPath="$PROJECT_DIR$/base64/Norisbank-Norisbank MasterCard.img.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Payango-Payango-CristalCard-Prepaid.jpg" afterPath="$PROJECT_DIR$/base64/Payango-Payango-CristalCard-Prepaid.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Payango-Payango-ExplorerCard-Familiy.jpg" afterPath="$PROJECT_DIR$/base64/Payango-Payango-ExplorerCard-Familiy.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Payango-PayangoCard.jpg" afterPath="$PROJECT_DIR$/base64/Payango-PayangoCard.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Postbank-Postbank-MasterCard.jpg" afterPath="$PROJECT_DIR$/base64/Postbank-Postbank-MasterCard.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Postbank-Postbank-VISA-Card-GOLD.jpg" afterPath="$PROJECT_DIR$/base64/Postbank-Postbank-VISA-Card-GOLD.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Postbank-Postbank-VISA-Card-PLATINUM.jpg" afterPath="$PROJECT_DIR$/base64/Postbank-Postbank-VISA-Card-PLATINUM.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Postbank-Postbank-VISA-Card-Prepaid.jpg" afterPath="$PROJECT_DIR$/base64/Postbank-Postbank-VISA-Card-Prepaid.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Postbank-Postbank-VISA-Card.jpg" afterPath="$PROJECT_DIR$/base64/Postbank-Postbank-VISA-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Postbank-Postbank-VISA-Motiv-Karte.jpg" afterPath="$PROJECT_DIR$/base64/Postbank-Postbank-VISA-Motiv-Karte.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Postbank-Postbank-VISA-Shopping-Card.jpg" afterPath="$PROJECT_DIR$/base64/Postbank-Postbank-VISA-Shopping-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-AvD-Tank-und-Spar-VISA-Card.jpg" afterPath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-AvD-Tank-und-Spar-VISA-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-D.A.S.-VISA-Card.jpg" afterPath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-D.A.S.-VISA-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-DKV-VISA-Karte.jpg" afterPath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-DKV-VISA-Karte.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-Esprit-VISA-Karte.jpg" afterPath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-Esprit-VISA-Karte.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-Ferrari-Card.jpg" afterPath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-Ferrari-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-Harley-Davidson-VISA-Chrome-Card.jpg" afterPath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-Harley-Davidson-VISA-Chrome-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-Hein-Gericke-VISA-Card.jpg" afterPath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-Hein-Gericke-VISA-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-VISA-Card.jpg" afterPath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-VISA-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-X-ite-Card.jpg" afterPath="$PROJECT_DIR$/base64/Santander-Consumer-Bank-Santander-X-ite-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Targo-Bank-Targo-Gold-Karte.jpg" afterPath="$PROJECT_DIR$/base64/Targo-Bank-Targo-Gold-Karte.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/Wüstenrot-Wüstenrot-VISA-Gold-Prepaid.jpg" afterPath="$PROJECT_DIR$/base64/Wüstenrot-Wüstenrot-VISA-Gold-Prepaid.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/easy-Credit-easyCredit-Card-Gold.jpg" afterPath="$PROJECT_DIR$/base64/easy-Credit-easyCredit-Card-Gold.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/easy-Credit-easyCredit-Card.jpg" afterPath="$PROJECT_DIR$/base64/easy-Credit-easyCredit-Card.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/gebuhrenfrei.com-Gebührenfrei-MasterCard-Gold.jpg" afterPath="$PROJECT_DIR$/base64/gebuhrenfrei.com-Gebührenfrei-MasterCard-Gold.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base64/netbank-netbank-MasterCard-Platinum.jpg" afterPath="$PROJECT_DIR$/base64/netbank-netbank-MasterCard-Platinum.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique_1.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique_1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique_1.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique_2.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique_2.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique_2.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold_1.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold_1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold_1.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold_2.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold_2.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold_2.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique_1.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique_1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique_1.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique_2.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique_2.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique_2.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium_1.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium_1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium_1.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium_2.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium_2.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium_2.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique_1.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique_1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique_1.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique_2.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique_2.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique_2.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular_1.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular_1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular_1.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular_2.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular_2.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular_2.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium_1.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium_1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium_1.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium_2.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium_2.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium_2.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/desktop.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dev.qmedia.de.iws" />
@@ -113,6 +122,9 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -174,7 +186,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="base64" />
+              <option name="myItemId" value="bva-fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -620,18 +632,34 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e9bd2ab9-16fb-4ac0-8e81-be8c4503f401" name="Default" comment="" />
       <created>1496841590457</created>
       <option name="number" value="Default" />
       <updated>1496841590457</updated>
-      <workItem from="1496841594235" duration="788000" />
+      <workItem from="1496841594235" duration="1548000" />
     </task>
+    <task id="LOCAL-00001" summary="resized images - google">
+      <created>1496842395468</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1496842395468</updated>
+    </task>
+    <task id="LOCAL-00002" summary="resized images - google">
+      <created>1496842502037</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496842502037</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="788000" />
+    <option name="totallyTimeSpent" value="1548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2551" y="-9" width="2578" height="1408" extended-state="6" />
@@ -639,6 +667,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -661,8 +690,22 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="resized images - google" />
+    <option name="LAST_COMMIT_MESSAGE" value="resized images - google" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
