@@ -2,72 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9bd2ab9-16fb-4ac0-8e81-be8c4503f401" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique_1.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique_1.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique_1.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique_2.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique_2.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-BoldOblique_2.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold_1.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold_1.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold_1.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold_2.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold_2.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Bold_2.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique_1.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique_1.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique_1.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique_2.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique_2.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-MediumOblique_2.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium_1.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium_1.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium_1.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium_2.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium_2.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Medium_2.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique_1.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique_1.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique_1.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique_2.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique_2.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-RegularOblique_2.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular_1.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular_1.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular_1.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular_2.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular_2.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/GTWalsheimPro-Regular_2.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium_1.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium_1.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium_1.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium_2.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium_2.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/MarkW01-Medium_2.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bva-fonts/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/American-express-platinum-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/american-express-blue-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/american-express-gold-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/american-express-payback-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/barclaycard-gold-visa-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/barclaycard-new-visa-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/dkb-visa-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/hanseatic-bank-gold-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/ics-visa-world-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/lufthansa-miles-more-blue-kreditkarte-world-business.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/lufthansa-miles-more-kreditkarte-blue-world.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/netbank-mastercard-classic-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/netbank-platinum-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/santander-1plus-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/santander-sunnycard-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/santander-travel-card-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/targo-online-classic-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/volkswagen-visa-card-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/volkswagen-visa-card-kreditkarte2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/volkswagen-visa-kreditkarte-versicherungspaket.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/wuestenrot-visa-classic-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/wuestenrot-visa-gold-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/wuestenrot-visa-premium-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/wuestenrot-visa-prepaid-kreditkarte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base64-2/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dev.qmedia.de.iws" />
@@ -90,12 +49,12 @@
     <favorites_list name="dev.qmedia.de" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="!index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/base64/!index.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base64-2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3790761">
-              <caret line="124" column="7" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.36998707">
+              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -115,6 +74,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CNAME" />
+        <option value="$PROJECT_DIR$/base64/!index.html" />
+        <option value="$PROJECT_DIR$/base64-2/index.html" />
       </list>
     </option>
   </component>
@@ -158,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,14 +148,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bva-fonts" />
+              <option name="myItemId" value="base64-2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -204,6 +165,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\erkan.boga\IdeaProjects\dev.qmedia.de\base64-2" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -616,6 +583,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -641,7 +613,10 @@
       <created>1496841590457</created>
       <option name="number" value="Default" />
       <updated>1496841590457</updated>
-      <workItem from="1496841594235" duration="1548000" />
+      <workItem from="1496841594235" duration="2553000" />
+      <workItem from="1497364321308" duration="1635000" />
+      <workItem from="1497369125888" duration="82000" />
+      <workItem from="1500043528998" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="resized images - google">
       <created>1496842395468</created>
@@ -655,38 +630,56 @@
       <option name="project" value="LOCAL" />
       <updated>1496842502037</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="resized images - google">
+      <created>1497188481026</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1497188481026</updated>
+    </task>
+    <task id="LOCAL-00004" summary="bva fonts">
+      <created>1497364362448</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1497364362448</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bva fonts">
+      <created>1497368688896</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1497368688896</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1548000" />
+    <option name="totallyTimeSpent" value="4588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2551" y="-9" width="2578" height="1408" extended-state="6" />
+    <frame x="2551" y="-9" width="2578" height="1408" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329591" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329591" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329591" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -705,25 +698,57 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="resized images - google" />
-    <option name="LAST_COMMIT_MESSAGE" value="resized images - google" />
+    <MESSAGE value="bva fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="bva fonts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNAME">
+    <entry file="file://$PROJECT_DIR$/base64/!index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base64/!index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3790761">
-          <caret line="124" column="7" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base64/!index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base64/!index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14230272">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base64-2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36998707">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
           <folding />
         </state>
       </provider>
