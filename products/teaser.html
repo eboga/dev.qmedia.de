@@ -1,0 +1,582 @@
+<!doctype html>
+<html amp>
+
+    <head>
+        <meta charset="utf-8">
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+        <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+        <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+        <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+        <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+
+        <!-- for Tabs -->
+        <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+        <!-- /for Tabs -->
+
+        <script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
+        <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
+
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+        <style amp-custom>
+            /* base-min.css */
+            img,legend{border:0}legend,td,th{padding:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}dfn{font-style:italic}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre,textarea{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}table{border-collapse:collapse;border-spacing:0}.hidden,[hidden]{display:none}.pure-img{max-width:100%;height:auto;display:block}
+            /* grids-min.css */
+            .pure-g{text-rendering:optimizespeed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-align-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){table .pure-g{display:block}}.opera-only:-o-prefocus,.pure-g{word-spacing:-.43em}
+
+            @media screen and (min-width:0em) {.qm-sm-1-12,.qm-sm-10-12,.qm-sm-11-12,.qm-sm-12-12,.qm-sm-2-12,.qm-sm-3-12,.qm-sm-4-12,.qm-sm-5-12,.qm-sm-6-12,.qm-sm-7-12,.qm-sm-8-12,.qm-sm-9-12{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.qm-sm-1-12{width:8.3333%}.qm-sm-2-12{width:16.6667%}.qm-sm-3-12{width:25%}.qm-sm-4-12{width:33.3333%}.qm-sm-5-12{width:41.6667%}.qm-sm-6-12{width:50%}.qm-sm-7-12{width:58.3333%}.qm-sm-8-12{width:66.6667%}.qm-sm-9-12{width:75%}.qm-sm-10-12{width:83.3333%}.qm-sm-11-12{width:91.6667%}.qm-sm-12-12{width:100%}}
+            @media screen and (min-width:30em){.qm-md-1-12,.qm-md-10-12,.qm-md-11-12,.qm-md-12-12,.qm-md-2-12,.qm-md-3-12,.qm-md-4-12,.qm-md-5-12,.qm-md-6-12,.qm-md-7-12,.qm-md-8-12,.qm-md-9-12{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.qm-md-1-12{width:8.3333%}.qm-md-2-12{width:16.6667%}.qm-md-3-12{width:25%}.qm-md-4-12{width:33.3333%}.qm-md-5-12{width:41.6667%}.qm-md-6-12{width:50%}.qm-md-7-12{width:58.3333%}.qm-md-8-12{width:66.6667%}.qm-md-9-12{width:75%}.qm-md-10-12{width:83.3333%}.qm-md-11-12{width:91.6667%}.qm-md-12-12{width:100%}}
+            @media screen and (min-width:48em){.qm-lg-1-12,.qm-lg-10-12,.qm-lg-11-12,.qm-lg-12-12,.qm-lg-2-12,.qm-lg-3-12,.qm-lg-4-12,.qm-lg-5-12,.qm-lg-6-12,.qm-lg-7-12,.qm-lg-8-12,.qm-lg-9-12{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.qm-lg-1-12{width:8.3333%}.qm-lg-2-12{width:16.6667%}.qm-lg-3-12{width:25%}.qm-lg-4-12{width:33.3333%}.qm-lg-5-12{width:41.6667%}.qm-lg-6-12{width:50%}.qm-lg-7-12{width:58.3333%}.qm-lg-8-12{width:66.6667%}.qm-lg-9-12{width:75%}.qm-lg-10-12{width:83.3333%}.qm-lg-11-12{width:91.6667%}.qm-lg-12-12{width:100%}}
+            @media screen and (min-width:64em){.qm-xl-1-12,.qm-xl-10-12,.qm-xl-11-12,.qm-xl-12-12,.qm-xl-2-12,.qm-xl-3-12,.qm-xl-4-12,.qm-xl-5-12,.qm-xl-6-12,.qm-xl-7-12,.qm-xl-8-12,.qm-xl-9-12{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.qm-xl-1-12{width:8.3333%}.qm-xl-2-12{width:16.6667%}.qm-xl-3-12{width:25%}.qm-xl-4-12{width:33.3333%}.qm-xl-5-12{width:41.6667%}.qm-xl-6-12{width:50%}.qm-xl-7-12{width:58.3333%}.qm-xl-8-12{width:66.6667%}.qm-xl-9-12{width:75%}.qm-xl-10-12{width:83.3333%}.qm-xl-11-12{width:91.6667%}.qm-xl-12-12{width:100%}}
+
+
+
+            :root {
+                --15: #f9f9fa;
+                --25: #f4f4f6;
+                --50: #eaeaed;
+                --75: #e0dfe5;
+                --100: #cbcad3;
+                --200: #373f47;
+                --300: #858299;
+                --400: #6b6883;
+                --500: #514d6d;
+                --700: #403d5a;
+                --600: #4a4665;
+                --800: #373450;
+                --900: #27253e;
+                --dark: #373f47;
+                --light: rgba(55, 63, 71, .6);
+                --900-10: rgba(39, 37, 62, 0.1);
+                --accent: #00afff;
+                --bg-overlay: rgba(0, 175, 255, 0.02);
+                --facebook: #3b5998;
+                --green: #64ce83;
+                --linkedin: #0077b5;
+                --teal: #00bed4;
+                --twitter: #1da1f2;
+                --olive: #c5c300;
+                --orange: #ff7932;
+                --white: #ffffff;
+                --white-80: rgba(255, 255, 255, 0.8);
+                --white-30: rgba(255, 255, 255, 0.3);
+                --red: #ff403d;
+                --yellow: #ffb100;
+                --xing: #026466;
+            }
+            html {
+                box-sizing: border-box; }
+            *,
+            *::before,
+            *::after {
+                box-sizing: inherit; }
+            body {
+                /*font: normal .9375em/1.8  -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;*/
+                font: normal .9375em -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+                color: var(--500);
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                background-color: var(--25);
+            }
+            :focus {
+                outline: none;
+            }
+            .wrapper {
+                margin: 0 auto;
+                /*max-width: 62.5rem;*/
+                max-width: 51.875rem;
+            }
+
+            @media only screen and (min-width: 48em) {
+                .single-product-block {
+                    padding: 30px;
+                    box-shadow: 0 1px 3px 0 rgba(28,28,28,.06);
+                    margin-bottom: 20px;
+                    /*min-height: 295px;*/
+                    /*max-height: 295px;*/
+                }
+                .single-product-left-image amp-img {
+                    max-width: 140px;
+                    max-height: 90px;
+                }
+                .single-product-title {
+                    margin: 24px 16px 20px 0;
+                }
+            }
+            .single-product-block {
+                background-color: var(--white);
+            }
+
+            .single-product-title {
+                font-size: 20px;
+                font-weight: bold;
+                line-height: normal;
+                color: var(--dark);
+            }
+
+            @media only screen and (max-width: 47.9375em) {
+                .single-product-left-image amp-img {
+                    width: 120px;
+                    float: right;
+                }
+                .single-product-block {
+                    margin: 0 8px 20px 8px;
+                    padding: 20px;
+                    /*min-height: 400px;*/
+                    /*max-height: 400px;*/
+                }
+                .single-product-title {
+                    margin: 0 16px 20px 0;
+                }
+                .single-product-left-meta {
+                    position:relative;
+                    left: -41.6666%;
+                }
+                .single-product-left-image {
+                    position:relative;
+                    left: 58.3333%;
+                }
+                .product-feature-icons span:not(:last-child) {
+                    margin-right: 6px;
+                }
+            }
+
+            @media only screen and (min-width: 48em) {
+                .product-feature-icons span:not(:last-child) {
+                    margin-right: 12px;
+                }
+            }
+
+            .product-feature-icons {
+                max-width: 250px;
+                display: inline;
+            }
+            .product-feature-icons svg {
+                height: 12px;
+                width: 12px;
+                fill: var(--dark);
+            }
+            .tooltip {
+                position: relative;
+                border-bottom: dotted 1px grey;
+                display: inline-block;
+                padding-bottom: 0;
+            }
+
+            .product-feature-icons span.tooltip {border-bottom: none;}
+
+
+            .tooltip:hover .tooltiptext {
+                visibility: visible;
+                opacity: 1;
+                -webkit-transition: all .5s;
+                -moz-transition: all .5s;
+                -ms-transition: all .5s;
+                -o-transition: all .5s;
+                transition: all .5s;
+            }
+            .tooltip .tooltiptext {
+                visibility: hidden;
+                opacity: 0;
+                max-width: 450px;
+                min-width: 300px;
+                background-color: #fff;
+                box-shadow: 0 0 14px 0 rgba(28, 28, 28, .18);
+                text-align: left;
+                line-height: 1.4;
+                padding: .75rem 1.25rem;
+                border: 1px solid #ccc;
+                font-weight: normal;
+                position: absolute;
+                bottom: 40px;
+                z-index: 1;
+                left: 0;
+            }
+
+
+
+
+
+
+            @media only screen and (max-width: 47.9375em) {
+                .top-info {
+                    margin-top: 20px;
+                }
+                .top-info-name {
+                    margin-bottom: .3125rem;
+                }
+                .top-info-value {
+                    font-size: 18px;
+                }
+            }
+            @media only screen and (min-width: 48em) {
+                .top-info-name {
+                    margin-bottom: .5rem;
+                }
+                .top-info-value {
+                    font-size: 20px;
+                    padding-bottom: 8px;
+                }
+            }
+
+            .top-info-name {
+                font-size: 14px;
+                line-height: 1;
+                color: var(--light);
+            }
+            .top-info-small {
+                font-size: 14px;
+                line-height: 1;
+                color: var(--light);
+            }
+            .top-info-small strong {
+                color: var(--dark);
+            }
+            .top-info-value {
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 1;
+                color: var(--dark);
+            }
+
+
+
+
+
+
+
+            .single-product-usps {}
+
+            .single-product-usp-list {}
+
+
+            @media only screen and (min-width: 48em) {
+                .single-product-right-wrapper {
+                    /*height: 235px;*/
+                    padding-left: 2rem;
+                    /*display: grid;*/
+                    /*grid-template-rows: 40px auto 45px;*/
+                }
+            }
+
+
+            @media only screen and (max-width: 47.9375em) {
+                ul.single-product-usp-list {
+                    -moz-hyphens: auto;
+                    -o-hyphens: auto;
+                    -webkit-hyphens: auto;
+                    -ms-hyphens: auto;
+                    hyphens: auto;
+                    line-height: 1.61;
+                }
+                ul.single-product-usp-list li {
+                    /*margin-bottom: 4px;*/
+                }
+            }
+            @media only screen and (min-width: 48em) {
+                ul.single-product-usp-list {
+                    list-style: none;
+                    line-height: 1.54;
+                }
+            }
+            ul.single-product-usp-list li svg {
+                height: 12px;
+                width: 12px;
+                margin-left: -22px;
+                margin-right: 8px;
+                /*margin-right: 8px;*/
+                /*margin-left: -30px;*/
+            }
+
+            ul.single-product-usp-list {
+                margin: 20px 0;
+                padding-left: 0;
+                font-size: 14px;
+                color: var(--dark);
+                /*padding: 0 0 0 30px;*/
+                list-style: none;
+            }
+            ul.single-product-usp-list li {
+                padding-left: 22px;
+            }
+            ul.single-product-usp-list li.top-feature svg {
+                fill: #9f995e;
+            }
+
+            ul.single-product-usp-list li.top-feature {
+                color: #9f995e;
+            }
+
+
+
+
+            .inline-svg {
+                display: none;
+            }
+
+            .single-product-button.to-bank {
+                color: var(--white);
+                object-fit: contain;
+                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .06);
+                background-color: var(--accent);
+            }
+            .single-product-button.to-detail {
+                border: 1px solid var(--accent);
+                color: var(--accent);
+            }
+            .single-product-button {
+                line-height: 43px;
+                text-align: center;
+                text-decoration: none;
+                display: block;
+                width: 150px;
+                height: 45px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            /* ************************** VISIBILITY **************************** */
+            @media screen and (max-width: 29.9375em) {
+                .hide-for-small-only {
+                    display: none; } }
+            @media screen and (max-width: 0em), screen and (min-width: 30em) {
+                .show-for-small-only {
+                    display: none; } }
+            @media print, screen and (min-width: 30em) {
+                .hide-for-medium {
+                    display: none; } }
+            @media screen and (max-width: 47.9375em) {
+                .show-for-medium {
+                    display: none; } }
+            @media screen and (min-width: 30em) and (max-width: 47.9375em) {
+                .hide-for-medium-only {
+                    display: none; } }
+            @media screen and (max-width: 29.9375em), screen and (min-width: 48em) {
+                .show-for-medium-only {
+                    display: none; } }
+            @media screen and (max-width: 47.9375em) {
+                .show-for-large {
+                    display: none; } }
+            @media print, screen and (min-width: 48em) {
+                .hide-for-large {
+                    display: none; } }
+            @media screen and (min-width: 48em) and (max-width: 63.9375em) {
+                .hide-for-large-only {
+                    display: none; } }
+            @media screen and (max-width: 48em), screen and (min-width: 64em) {
+                .show-for-large-only {
+                    display: none; } }
+            @media screen and (max-width: 63.9375em) {
+                .show-for-xlarge {
+                    display: none; } }
+            @media print {
+                * {
+                    background: transparent;
+                    box-shadow: none;
+                    color: black;
+                    text-shadow: none;
+                }
+                .show-for-print { display: block; }
+                .hide-for-print { display: none; }
+            }
+            /* ************************** /VISIBILITY *************************** */
+
+
+        </style>
+
+        <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+            <div class="pure-g">
+                <div class="qm-sm-12-12">
+                    <h1>Teaser Box</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="pure-g single-product-block">
+                <div class="qm-sm-12-12 qm-lg-4-12 single-product-left-wrapper">
+                    <div class="pure-g">
+                        <div class="qm-sm-5-12 qm-lg-12-12 single-product-left-image">
+                            <amp-img src="./images/product.png" width="140" height="90" alt="Barclaycard Visa" title="Barclaycard Visa" layout="responsive"></amp-img>
+                        </div>
+                        <div class="qm-sm-7-12 qm-lg-12-12 single-product-left-meta">
+                            <div class="single-product-title">Barclaycard New Visa</div>
+
+                            <div class="product-feature-icons">
+                                <span class="tooltip"><span class="tooltiptext">Deutsche Einlagensicherung</span><svg class="shield"><use xlink:href="#shield"></use></svg></span>
+                                <span class="tooltip"><span class="tooltiptext">Deutsche Einlagensicherung</span><svg class="car"><use xlink:href="#car"></use></svg></span>
+                                <span class="tooltip"><span class="tooltiptext">Deutsche Einlagensicherung</span><svg class="plane"><use xlink:href="#plane"></use></svg></span>
+                                <span class="tooltip"><span class="tooltiptext">Deutsche Einlagensicherung</span><svg class="video"><use xlink:href="#video"></use></svg></span>
+                                <span class="tooltip"><span class="tooltiptext">Deutsche Einlagensicherung</span><svg class="contactless"><use xlink:href="#contactless"></use></svg></span>
+                                <span class="tooltip"><span class="tooltiptext">Deutsche Einlagensicherung</span><svg class="mobile"><use xlink:href="#mobile"></use></svg></span>
+                                <span class="tooltip"><span class="tooltiptext">Deutsche Einlagensicherung</span><svg class="apple"><use xlink:href="#apple"></use></svg></span>
+                                <span class="tooltip"><span class="tooltiptext">Deutsche Einlagensicherung</span><svg class="google"><use xlink:href="#google"></use></svg></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="qm-sm-12-12 qm-lg-8-12 single-product-right-wrapper">
+                    <div class="pure-g top-info">
+                        <div class="qm-sm-4-12">
+                            <div class="top-info-name">Jahresgebühr</div>
+                            <div class="top-info-value">
+                                <div class="tooltip">bla €<span class="tooltip tooltiptext">0 €</span></div>
+                            </div>
+                            <div class="top-info-small show-for-medium"><strong>0 €</strong> im 1. Jahr</div>
+                        </div>
+
+                        <div class="qm-sm-4-12">
+                            <div class="top-info-name">Kosten / Order</div>
+                            <div class="top-info-value">10 €</div>
+                            <div class="top-info-small show-for-medium"><strong>1,50 %</strong> im Ausland</div>
+                        </div>
+                        <div class="qm-sm-4-12">
+                            <div class="top-info-name">Gesamtkosten</div>
+                            <div class="top-info-value">20 €</div>
+                            <div class="top-info-small show-for-medium"><strong>0,20 %</strong> Kreditzinsen</div>
+
+                        </div>
+                        <!--<div class="show-for-large qm-lg-2-12">-->
+                            <!--note-->
+                        <!--</div>-->
+                    </div>
+
+                    <div class="single-product-usps"><!-- single-products-usps -->
+                        <ul class="single-product-usp-list">
+                            <li class="top-feature"><svg class="thumb"><use xlink:href="#thumb"></use></svg>25 € Startguthaben!</li>
+                            <li><svg class="check-cicle"><use xlink:href="#check-cicle"></use></svg>Kein monatlicher Mindesteingang erforderlich.</li>
+                            <li><svg class="minus"><use xlink:href="#minus"></use></svg>Hoher Sollzins bei Teilzahlung.</li>
+                            <li><svg class="minus"><use xlink:href="#minus"></use></svg>Nur mit Girokonto möglich.</li>
+                        </ul>
+                    </div><!-- / single-product-usps -->
+
+                    <div class="pure-g single-product-buttons">
+                        <div class="qm-sm-6-12 qm-lg-12-12">
+                            <div class="pure-g">
+                                <div class="qm-sm-12-12 qm-lg-4-12">
+                                    <a class="single-product-button to-bank" href="/zum-anbieter/{{linkout}}/" target="_blank" rel="noopener nofollow">zum Anbieter</a>
+                                </div>
+                                <div class="qm-sm-12-12 qm-lg-4-12">
+                                    <a class="single-product-button to-detail" href="/depot/{{detaillink}}/">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qm-sm-6-12 hide-for-large">
+                            <!--                                            note-->
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+        <div class="inline-svg">
+            <svg xmlns="http://www.w3.org/2000/svg">
+
+                <symbol id="shield" viewBox="0 0 23 26">
+                    <title>shield</title>
+                    <desc>shield</desc>
+
+                    <path d="M21.227 3.818h-.643c-3.644 0-6.283-.985-8.593-3.199l-.45-.435a.756.756 0 0 0-1.044 0l-.449.435C7.747 2.833 5.099 3.818 1.454 3.818H.807a.745.745 0 0 0-.745.741V5.2c0 .606 0 1.243-.024 1.912-.12 6.363-.29 15.074 10.527 18.784.296.102.618.102.914 0 10.816-3.71 10.633-12.43 10.526-18.784 0-.655-.024-1.286-.024-1.912v-.641a.746.746 0 0 0-.749-.742l-.005.001zm-4.248 10.016a.99.99 0 0 1-.996.985h-3.088v3.035a.99.99 0 0 1-.996.985H10.14a.99.99 0 0 1-.996-.985v-3.03H6.07a.99.99 0 0 1-.995-.985v-1.75a.99.99 0 0 1 .995-.985h3.074V8.073a.99.99 0 0 1 .996-.985h1.759a.99.99 0 0 1 .996.985v3.035h3.073a.992.992 0 0 1 1.011.971V13.834z"/>
+                </symbol>
+
+                <symbol id="car" viewBox="0 0 24 24">
+                    <title>car</title>
+                    <desc>car</desc>
+                    <path d="M23.991 10.032a3 3 0 0 0-.374-1.499L19.39 1.127A2.255 2.255 0 0 0 17.437.002H6.57a2.255 2.255 0 0 0-1.953 1.125L.383 8.548a3.001 3.001 0 0 0-.375 1.501V23.25c0 .415.336.75.749.75h2.998a.75.75 0 0 0 .75-.75v-2.999h14.99v2.999c0 .415.335.75.749.75h2.998a.749.749 0 0 0 .749-.75V10.032zM7.435 3.752h9.129l2.998 5.25H4.452l2.983-5.25zM5.629 16.501a1.874 1.874 0 1 1 0-3.748 1.874 1.874 0 0 1 0 3.748zm12.741 0a1.875 1.875 0 1 1 0-3.75 1.876 1.876 0 0 1 0 3.75z"/>
+                </symbol>
+
+                <symbol id="plane" viewBox="0 0 24 24">
+                    <title>plane</title>
+                    <desc>plane</desc>
+                    <path d="M23.296 1.16c1.126 1.359.833 3.416-.499 4.582l-4.431 3.875 1.036 11.388c.032.346-.092.687-.338.933l-.889.887a1.176 1.176 0 0 1-1.876-.303l-3.865-7.718-3.56 3.11.645 4.496a1.368 1.368 0 0 1-2.589.816l-2.048-4.102-4.101-2.045a1.367 1.367 0 0 1 .806-2.578l4.503.645 3.114-3.557-7.729-3.858a1.171 1.171 0 0 1-.304-1.872l.889-.89c.246-.246.588-.368.934-.336l11.403 1.034 3.992-4.575a3.217 3.217 0 0 1 4.907.068z"/>
+                </symbol>
+
+                <symbol id="video" viewBox="0 0 24 24">
+                    <title>video</title>
+                    <desc>video</desc>
+                    <path d="M9 3.75A3.761 3.761 0 0 1 12.75 0a3.76 3.76 0 0 1 3.75 3.75 3.762 3.762 0 0 1-3.75 3.751A3.763 3.763 0 0 1 9 3.75zM3.75 7.501A2.257 2.257 0 0 0 6 5.25a2.257 2.257 0 0 0-2.25-2.251A2.257 2.257 0 0 0 1.5 5.25a2.257 2.257 0 0 0 2.25 2.251zM24 12.712v7.575c0 1.051-1.088 1.8-2.063 1.387L18 20.1v.9a3.007 3.007 0 0 1-3 2.999H3c-1.65 0-3-1.348-3-2.999v-9c0-1.651 1.35-3 3-3h12c1.65 0 3 1.349 3 3v.901l3.937-1.576c.975-.414 2.063.338 2.063 1.387zM15 12H3v9h12v-9z"/>
+                </symbol>
+
+                <symbol id="contactless" viewBox="0 0 20 24">
+                    <title>contactless</title>
+                    <desc>contactless</desc>
+                    <path d="M15.33 23.961c-.407-.113-.819-.57-.906-1.009-.056-.285.012-.481.444-1.272 1.744-3.189 2.502-6.126 2.502-9.691 0-3.444-.671-6.125-2.338-9.336-.358-.69-.651-1.331-.651-1.423 0-.342.303-.838.63-1.031.449-.267 1.201-.217 1.561.102.139.124.499.682.799 1.243a22.673 22.673 0 0 1 2.414 7.174c.249 1.565.299 4.533.1 5.966-.368 2.644-1.106 5.003-2.287 7.314-.714 1.397-1.162 1.971-1.538 1.971-.074 0-.197.018-.272.039-.074.022-.28 0-.458-.047zm-4.853-2.402c-.624-.173-1.075-.898-.894-1.441.044-.131.338-.736.653-1.345 1.335-2.577 1.891-5.338 1.619-8.05-.224-2.229-.646-3.634-1.709-5.69-.714-1.379-.747-1.594-.332-2.149.394-.527 1.379-.614 1.896-.164.358.311 1.473 2.513 1.904 3.76 1.424 4.129 1.206 8.559-.619 12.614-.935 2.077-1.591 2.719-2.518 2.465zm-5.005-2.437c-.386-.165-.718-.551-.808-.939-.055-.237.04-.498.497-1.376 1.681-3.221 1.7-6.323.056-9.47-.722-1.38-.738-1.655-.127-2.2.301-.269.429-.316.852-.316.71 0 1.078.337 1.712 1.569.976 1.897 1.375 3.541 1.372 5.647-.004 2.167-.377 3.653-1.419 5.652-.597 1.144-.892 1.446-1.49 1.525a1.458 1.458 0 0 1-.645-.092zm-4.67-2.268c-.306-.12-.655-.514-.758-.856-.116-.381-.022-.685.437-1.399.59-.918.728-1.412.728-2.61 0-1.199-.138-1.693-.728-2.609-.2-.311-.4-.686-.446-.829-.19-.606.343-1.347 1.058-1.473.607-.109 1.024.148 1.581.972 1.616 2.385 1.615 5.57 0 7.936-.57.833-1.206 1.127-1.872.868z" />
+                </symbol>
+
+                <symbol id="mobile" viewBox="0 0 18 24">
+                    <title>mobile</title>
+                    <desc>mobile</desc>
+                    <path d="M15.091.001H2.909C1.302.001 0 1.344 0 3v18c0 1.658 1.302 3 2.909 3h12.182C16.697 24 18 22.658 18 21V3C18 1.344 16.697.001 15.091.001zM9 21.75c-.803 0-1.455-.671-1.455-1.501 0-.827.652-1.5 1.455-1.5s1.454.673 1.454 1.5c0 .83-.651 1.501-1.454 1.501zm6.091-4.874H2.909V3h12.182v13.876z" />
+                </symbol>
+
+                <symbol id="google" viewBox="0 0 22 24">
+                    <title>google</title>
+                    <desc>google</desc>
+                    <path d="M20.516 13.974l-3.503 1.977-3.832-3.995 3.81-3.972 3.523 1.982c1.958 1.101 1.959 2.905.002 4.008zM1.729.013c.537-.087 1.168.043 1.84.421l12.109 6.812-3.507 3.656L1.729.013zm-1.266 23.1C.175 22.665.01 22.056.01 21.31V2.664c0-.766.174-1.387.477-1.839l10.674 11.131L.463 23.113zm15.238-6.422L3.567 23.536c-.692.391-1.339.516-1.887.414l10.491-10.941 3.53 3.682z"/>
+                </symbol>
+
+                <symbol id="apple" viewBox="0 0 22 26">
+                    <title>apple</title>
+                    <desc>apple</desc>
+                    <path d="M18.361 13.801c.042 3.929 3.59 5.233 3.63 5.25-.032.092-.565 1.864-1.864 3.698-1.124 1.582-2.287 3.16-4.127 3.193-1.807.036-2.39-1.026-4.457-1.025-2.065.003-2.71 1.002-4.42 1.07-1.776.065-3.129-1.707-4.266-3.282-2.323-3.22-4.102-9.104-1.729-13.083 1.179-1.973 3.289-3.227 5.581-3.261 1.742-.035 3.391 1.125 4.456 1.121 1.065 0 3.063-1.4 5.166-1.196.88.035 3.349.337 4.939 2.57-.127.075-2.946 1.659-2.909 4.945zm-7.398-7.802c-.207-1.491.558-3.045 1.431-4.017C13.369.883 15.013.067 16.37.012c.174 1.522-.46 3.049-1.403 4.148-.944 1.097-2.49 1.951-4.004 1.839z"/>
+                </symbol>
+
+                <symbol id="check-cicle" viewBox="0 0 24 24">
+                    <title>check-cicle</title>
+                    <desc>check-cicle</desc>
+                    <path d="M12.759 14.966a1.093 1.093 0 0 1-1.537 0l-4.36-4.361a1.089 1.089 0 0 1 1.537-1.537l3.592 3.586L22.123 2.53a1.09 1.09 0 0 1 1.537 0 1.09 1.09 0 0 1 0 1.537L12.759 14.966zm4.023-11.509a9.807 9.807 0 0 0-6.756-1.048c-5.309 1.087-8.73 6.27-7.643 11.575 1.087 5.307 6.271 8.729 11.579 7.642 5.308-1.087 8.73-6.269 7.643-11.576a1.09 1.09 0 1 1 2.137-.436 12 12 0 0 1-1.301 8.267c-3.249 5.771-10.56 7.814-16.331 4.567C.338 19.201-1.707 11.891 1.541 6.121 4.789.352 12.1-1.693 17.872 1.555a1.095 1.095 0 1 1-1.09 1.902z" />
+                </symbol>
+
+                <symbol id="thumb" viewBox="0 0 26 24">
+                    <title>thumb</title>
+                    <desc>thumb</desc>
+                    <path d="M25.873 13.322c-.492 2.58-1.176 5.97-1.695 8.281-.52 2.204-1.914 2.394-4.293 2.394-3.692 0-8.887-1.292-10.993-1.856a1.215 1.215 0 0 1-.93-1.183c.028-2.071.028-6.963.028-8.953 0-.484.246-.914.683-1.103 3.719-1.693 6.126-8.2 6.809-9.921.738-1.801 4.102-.968 3.664 1.344-.246 1.211-.793 3.926-1.312 6.103-.137.592.355 1.157.984 1.103 1.477-.135 2.625-.189 3.856-.107 2.488.161 3.719 1.074 3.199 3.898zM4.818 23.701H1.372a1.36 1.36 0 0 1-1.367-1.345V10.634c0-.753.629-1.345 1.367-1.345h3.446c.738 0 1.367.592 1.367 1.345v11.722c0 .752-.629 1.345-1.367 1.345zm-1.723-4.06c-.601 0-1.094.484-1.094 1.075a1.09 1.09 0 0 0 1.094 1.076c.602 0 1.094-.485 1.094-1.076 0-.591-.492-1.075-1.094-1.075z"/>
+                </symbol>
+
+                <symbol id="check" viewBox="0 0 24 24">
+                    <title>check</title>
+                    <desc>check</desc>
+                    <path d="M12.759 14.965a1.09 1.09 0 0 1-1.537 0l-4.36-4.358A1.089 1.089 0 0 1 8.399 9.07l3.592 3.586L22.123 2.53a1.09 1.09 0 0 1 1.537 0 1.09 1.09 0 0 1 0 1.537L12.759 14.965zm4.023-11.508a9.807 9.807 0 0 0-6.756-1.047C4.717 3.496 1.295 8.678 2.382 13.986c1.087 5.307 6.272 8.727 11.58 7.641 5.308-1.087 8.73-6.27 7.643-11.577a1.09 1.09 0 0 1 2.137-.436 11.983 11.983 0 0 1-1.302 8.267c-3.248 5.77-10.559 7.816-16.331 4.569C.338 19.203-1.707 11.893 1.541 6.122 4.789.353 12.1-1.692 17.871 1.555a1.096 1.096 0 1 1-1.089 1.902z" opacity=".6"/>
+                </symbol>
+
+                <symbol id="minus" viewBox="0 0 24 24">
+                    <title>minus</title>
+                    <desc>minus</desc>
+                    <path d="M12.016 23.986C5.391 24 .014 18.642.005 12.017-.003 5.393 5.36.01 11.985-.004h.042c6.624.009 11.983 5.386 11.968 12.011-.014 6.608-5.371 11.965-11.979 11.979zm-.035-21.971c-5.52.003-9.997 4.481-9.999 10.001-.001 5.521 4.473 9.994 9.993 9.99 5.52-.003 9.996-4.479 9.999-9.999v-.002a9.984 9.984 0 0 0-9.993-9.99zm1.412 9.997l2.827 2.826a1 1 0 0 1-1.414 1.414l-2.827-2.827-2.828 2.829a1 1 0 1 1-1.413-1.413l2.828-2.828L7.74 9.186a1 1 0 1 1 1.414-1.414l2.826 2.827 2.829-2.829a1 1 0 1 1 1.413 1.413l-2.829 2.829z" opacity=".6"/>
+                </symbol>
+
+                <symbol id="info" viewBox="0 0 24 24">
+                    <title>info</title>
+                    <desc>info</desc>
+                    <path d="M12 23.999C5.373 23.999 0 18.627 0 12 0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 11.999-12 11.999zM12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.192 5.99V5.81c0-.06.534-.109 1.193-.109s1.193.049 1.193.109V7.99c0 .061-.534.11-1.193.11s-1.193-.049-1.193-.11zm1.18 2.714c.659 0 1.193.442 1.193.985V17.317c0 .543-.534.985-1.193.985s-1.193-.442-1.193-.985v-5.628c0-.543.534-.985 1.193-.985z"/>
+                </symbol>
+            </svg>
+        </div>
+
+
+
+
+    </body>
+</html>
+
+
+
+
+
