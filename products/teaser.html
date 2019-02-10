@@ -77,7 +77,9 @@
                 --dark-40: rgba(55, 63, 71, .4);
                 --dark-60: rgba(55, 63, 71, .6);
                 --dark-100: rgba(55, 63, 71, 1);
-                --accent: #5e859f;
+                --accent: rgba(94, 133, 159, 1);
+                --accent-90: rgba(94, 133, 159, .9);
+
                 --bg-overlay: rgba(0, 175, 255, 0.02);
                 --facebook: #3b5998;
                 --green: #64ce83;
@@ -240,7 +242,9 @@
                 }
                 .top-info-value {
                     font-size: 20px;
-                    padding-bottom: 4px;
+                }
+                .top-info-small {
+                    padding-top: 4px;
                 }
             }
 
@@ -352,9 +356,16 @@
                 box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .06);
                 background-color: var(--accent);
             }
+            .single-product-button.to-bank:hover {
+                background-color: var(--accent-90);
+            }
             .single-product-button.to-detail {
                 border: 1px solid var(--accent);
                 color: var(--accent);
+            }
+            .single-product-button.to-detail:hover {
+                color: var(--accent-90);
+                border: 1px solid var(--accent-90);
             }
             .single-product-button {
                 text-align: center;
