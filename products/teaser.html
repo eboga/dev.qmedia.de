@@ -34,7 +34,44 @@
             @media screen and (min-width:48em){.qm-lg-1-12,.qm-lg-10-12,.qm-lg-11-12,.qm-lg-12-12,.qm-lg-2-12,.qm-lg-3-12,.qm-lg-4-12,.qm-lg-5-12,.qm-lg-6-12,.qm-lg-7-12,.qm-lg-8-12,.qm-lg-9-12{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.qm-lg-1-12{width:8.3333%}.qm-lg-2-12{width:16.6667%}.qm-lg-3-12{width:25%}.qm-lg-4-12{width:33.3333%}.qm-lg-5-12{width:41.6667%}.qm-lg-6-12{width:50%}.qm-lg-7-12{width:58.3333%}.qm-lg-8-12{width:66.6667%}.qm-lg-9-12{width:75%}.qm-lg-10-12{width:83.3333%}.qm-lg-11-12{width:91.6667%}.qm-lg-12-12{width:100%}}
             @media screen and (min-width:64em){.qm-xl-1-12,.qm-xl-10-12,.qm-xl-11-12,.qm-xl-12-12,.qm-xl-2-12,.qm-xl-3-12,.qm-xl-4-12,.qm-xl-5-12,.qm-xl-6-12,.qm-xl-7-12,.qm-xl-8-12,.qm-xl-9-12{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.qm-xl-1-12{width:8.3333%}.qm-xl-2-12{width:16.6667%}.qm-xl-3-12{width:25%}.qm-xl-4-12{width:33.3333%}.qm-xl-5-12{width:41.6667%}.qm-xl-6-12{width:50%}.qm-xl-7-12{width:58.3333%}.qm-xl-8-12{width:66.6667%}.qm-xl-9-12{width:75%}.qm-xl-10-12{width:83.3333%}.qm-xl-11-12{width:91.6667%}.qm-xl-12-12{width:100%}}
 
+            @font-face {
+                font-family: 'pt_root_uiregular';
+                src: url('../assets/fonts/PT Root UI_Regular-webfont.eot');
+                src: url('../assets/fonts/PT Root UI_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+                /*url('fonts/PT Root UI_Regular-webfont.woff2') format('woff2'),*/
+                url('../assets/fonts/PT Root UI_Regular-webfont.woff') format('woff'),
+                url('../assets/fonts/PT Root UI_Regular-webfont.ttf') format('truetype'),
+                url('../assets/fonts/PT Root UI_Regular-webfont.svg#pt_root_uiregular') format('svg');
+                font-weight: normal;
+                font-style: normal;
 
+            }
+
+            @font-face {
+                font-family: 'pt_root_uimedium';
+                src: url('../assets/fonts/PT Root UI_Medium-webfont.eot');
+                src: url('../assets/fonts/PT Root UI_Medium-webfont.eot?#iefix') format('embedded-opentype'),
+                /*url('fonts/PT Root UI_Medium-webfont.woff2') format('woff2'),*/
+                url('../assets/fonts/PT Root UI_Medium-webfont.woff') format('woff'),
+                url('../assets/fonts/PT Root UI_Medium-webfont.ttf') format('truetype'),
+                url('../assets/fonts/PT Root UI_Medium-webfont.svg#pt_root_uimedium') format('svg');
+                font-weight: normal;
+                font-style: normal;
+
+            }
+
+            @font-face {
+                font-family: 'pt_root_uibold';
+                src: url('../assets/fonts/PT Root UI_Bold-webfont.eot');
+                src: url('../assets/fonts/PT Root UI_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+                /*url('fonts/PT Root UI_Bold-webfont.woff2') format('woff2'),*/
+                url('../assets/fonts/PT Root UI_Bold-webfont.woff') format('woff'),
+                url('../assets/fonts/PT Root UI_Bold-webfont.ttf') format('truetype'),
+                url('../assets/fonts/PT Root UI_Bold-webfont.svg#pt_root_uibold') format('svg');
+                font-weight: normal;
+                font-style: normal;
+
+            }
 
             :root {
                 --15: #f9f9fa;
@@ -76,8 +113,8 @@
             *::after {
                 box-sizing: inherit; }
             body {
-                /*font: normal .9375em/1.8  -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;*/
-                font: normal .9375em -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+                /*font: normal .9375em -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;*/
+                font: normal .9375em "pt_root_uiregular",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
                 color: var(--500);
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
@@ -115,6 +152,7 @@
             .single-product-title {
                 font-size: 20px;
                 font-weight: bold;
+                font-family: 'pt_root_uibold', sans-serif;
                 line-height: normal;
                 color: var(--dark);
             }
@@ -239,7 +277,8 @@
             }
             .top-info-value {
                 font-size: 18px;
-                font-weight: 600;
+                font-weight: bold;
+                font-family: 'pt_root_uibold', sans-serif;
                 line-height: 1;
                 color: var(--dark);
             }
@@ -289,8 +328,6 @@
                 width: 12px;
                 margin-left: -22px;
                 margin-right: 8px;
-                /*margin-right: 8px;*/
-                /*margin-left: -30px;*/
             }
 
             ul.single-product-usp-list {
@@ -298,7 +335,6 @@
                 padding-left: 0;
                 font-size: 14px;
                 color: var(--dark);
-                /*padding: 0 0 0 30px;*/
                 list-style: none;
             }
             ul.single-product-usp-list li {
@@ -338,7 +374,10 @@
                 height: 45px;
                 font-size: 16px;
                 font-weight: bold;
+                font-family: 'pt_root_uibold', sans-serif;
             }
+
+
 
             /* ************************** VISIBILITY **************************** */
             @media screen and (max-width: 29.9375em) {
@@ -386,6 +425,10 @@
             }
             /* ************************** /VISIBILITY *************************** */
 
+
+            h1 {
+                font-family: 'pt_root_uibold';
+            }
 
         </style>
 
