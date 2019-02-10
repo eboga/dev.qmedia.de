@@ -73,22 +73,10 @@
             }
 
             :root {
-                --15: #f9f9fa;
-                --25: #f4f4f6;
-                --50: #eaeaed;
-                --75: #e0dfe5;
-                --100: #cbcad3;
-                --200: #373f47;
-                --300: #858299;
-                --400: #6b6883;
-                --500: #514d6d;
-                --700: #403d5a;
-                --600: #4a4665;
-                --800: #373450;
-                --900: #27253e;
-                --dark: #373f47;
-                --light: rgba(55, 63, 71, .6);
-                --900-10: rgba(39, 37, 62, 0.1);
+                --dark-04: rgba(55, 63, 71, .04);
+                --dark-40: rgba(55, 63, 71, .4);
+                --dark-60: rgba(55, 63, 71, .6);
+                --dark-100: rgba(55, 63, 71, 1);
                 --accent: #00afff;
                 --bg-overlay: rgba(0, 175, 255, 0.02);
                 --facebook: #3b5998;
@@ -114,10 +102,10 @@
             body {
                 /*font: normal .9375em -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;*/
                 font: normal .9375em "pt_root",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-                color: var(--500);
+                color: var(--dark-100);
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
-                background-color: var(--25);
+                background-color: var(--dark-04);
             }
             :focus {
                 outline: none;
@@ -152,7 +140,6 @@
                 font-size: 20px;
                 font-weight: bold;
                 line-height: normal;
-                color: var(--dark);
             }
 
             @media only screen and (max-width: 47.9375em) {
@@ -195,11 +182,10 @@
             .product-feature-icons svg {
                 height: 12px;
                 width: 12px;
-                fill: var(--dark);
             }
             .tooltip {
                 position: relative;
-                border-bottom: dotted 1px grey;
+                border-bottom: dotted 1px var(--dark-40);
                 display: inline-block;
                 padding-bottom: 0;
             }
@@ -209,7 +195,7 @@
 
             .tooltip:hover .tooltiptext {
                 visibility: visible;
-                opacity: 1;
+                opacity: .4;
                 -webkit-transition: all .5s;
                 -moz-transition: all .5s;
                 -ms-transition: all .5s;
@@ -252,7 +238,7 @@
             }
             @media only screen and (min-width: 48em) {
                 .top-info-name {
-                    margin-bottom: .5rem;
+                    margin-bottom: .25rem;
                 }
                 .top-info-value {
                     font-size: 20px;
@@ -263,21 +249,21 @@
             .top-info-name {
                 font-size: 14px;
                 line-height: 1;
-                color: var(--light);
+                color: var(--dark-60);
             }
             .top-info-small {
                 font-size: 14px;
                 line-height: 1;
-                color: var(--light);
+                color: var(--dark-60);
             }
             .top-info-small strong {
-                color: var(--dark);
+                color: var(--dark-100);
             }
             .top-info-value {
                 font-size: 18px;
                 font-weight: bold;
                 line-height: 1;
-                color: var(--dark);
+                color: var(--dark-100);
             }
 
 
@@ -286,17 +272,10 @@
 
 
 
-            .single-product-usps {}
-
-            .single-product-usp-list {}
-
 
             @media only screen and (min-width: 48em) {
                 .single-product-right-wrapper {
-                    /*height: 235px;*/
                     padding-left: 2rem;
-                    /*display: grid;*/
-                    /*grid-template-rows: 40px auto 45px;*/
                 }
             }
 
@@ -327,11 +306,14 @@
                 margin-right: 8px;
             }
 
+            ul.single-product-usp-list li svg {
+                fill: var(--dark-60);
+            }
             ul.single-product-usp-list {
                 margin: 20px 0;
                 padding-left: 0;
                 font-size: 14px;
-                color: var(--dark);
+                /*color: var(--dark-60);*/
                 list-style: none;
             }
             ul.single-product-usp-list li {
@@ -594,7 +576,7 @@
                 <symbol id="minus" viewBox="0 0 24 24">
                     <title>minus</title>
                     <desc>minus</desc>
-                    <path d="M12.016 23.986C5.391 24 .014 18.642.005 12.017-.003 5.393 5.36.01 11.985-.004h.042c6.624.009 11.983 5.386 11.968 12.011-.014 6.608-5.371 11.965-11.979 11.979zm-.035-21.971c-5.52.003-9.997 4.481-9.999 10.001-.001 5.521 4.473 9.994 9.993 9.99 5.52-.003 9.996-4.479 9.999-9.999v-.002a9.984 9.984 0 0 0-9.993-9.99zm1.412 9.997l2.827 2.826a1 1 0 0 1-1.414 1.414l-2.827-2.827-2.828 2.829a1 1 0 1 1-1.413-1.413l2.828-2.828L7.74 9.186a1 1 0 1 1 1.414-1.414l2.826 2.827 2.829-2.829a1 1 0 1 1 1.413 1.413l-2.829 2.829z" opacity=".6"/>
+                    <path d="M12.016 23.986C5.391 24 .014 18.642.005 12.017-.003 5.393 5.36.01 11.985-.004h.042c6.624.009 11.983 5.386 11.968 12.011-.014 6.608-5.371 11.965-11.979 11.979zm-.035-21.971c-5.52.003-9.997 4.481-9.999 10.001-.001 5.521 4.473 9.994 9.993 9.99 5.52-.003 9.996-4.479 9.999-9.999v-.002a9.984 9.984 0 0 0-9.993-9.99zm1.412 9.997l2.827 2.826a1 1 0 0 1-1.414 1.414l-2.827-2.827-2.828 2.829a1 1 0 1 1-1.413-1.413l2.828-2.828L7.74 9.186a1 1 0 1 1 1.414-1.414l2.826 2.827 2.829-2.829a1 1 0 1 1 1.413 1.413l-2.829 2.829z" />
                 </symbol>
 
                 <symbol id="info" viewBox="0 0 24 24">
